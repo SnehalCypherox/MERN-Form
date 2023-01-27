@@ -1,0 +1,64 @@
+.title {
+  text-align: center;
+  padding: 3%;
+}
+.home .logout-btn {
+  width: 50% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: transparent !important;
+}
+.MuiButton-root {
+  background: linear-gradient(to right, #ad5389, #3c1053) !important;
+  color: white !important;
+  margin: 15% auto 0px !important;
+  width: 30% !important;
+  text-transform: capitalize !important;
+}
+
+.form-box {
+  padding: 7%;
+}
+
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5%;
+}
+
+
+.formLabel {
+  margin-bottom: 0.25rem;
+  color: black !important;
+}
+
+.formField {
+  padding: 0.5rem;
+}
+
+.formFieldError {
+  border: 1px solid #e11d48;
+}
+
+.formFieldErrorMessage {
+  display: inline-block;
+  margin: 0.25rem 0 0 0;
+  color: #e11d48;
+}
+
+
+
+.formSubmitBtn {
+  padding: 0.5rem 0.7rem;
+  min-width: 5rem;
+  background-color: #9333ea;
+  color: #f3e8ff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
